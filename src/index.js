@@ -1,3 +1,5 @@
+import "./styles/index.scss";
+
 const foo = {
   bar: 1,
   foobar: 2,
