@@ -1,5 +1,6 @@
 import "../styles/index.scss";
 import Lists from "./Lists";
+import background from "../images/cool-background.png";
 
 const App = () => {
   return (
@@ -9,9 +10,10 @@ const App = () => {
         <section>
           <h1>hello there, react!! </h1>
         </section>
-          </main>
-          
-          <Lists />
+        <img src={background} alt="background" width="250" />
+        <img src={background} alt="background" width="250" />
+        <Lists />
+      </main>
     </>
   );
 };

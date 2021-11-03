@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const foo = {
-  bar: 1,
+  Owen: 1,
   foobar: 2,
   barfoo: 3,
 };
